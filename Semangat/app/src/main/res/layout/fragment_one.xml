@@ -1,0 +1,128 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.novia.semangat.OneFragment"
+    tools:layout_editor_absoluteY="81dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="341dp"
+        android:layout_height="94dp"
+
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+
+    <RelativeLayout
+        android:layout_width="371dp"
+        android:layout_height="316dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageView
+            android:id="@+id/btnWisata"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_alignLeft="@+id/btnWisata"
+            android:layout_alignStart="@+id/btnWisata"
+            android:layout_alignTop="@+id/btnWisata"
+            android:background="@drawable/kuliner"
+            android:src="@color/cardview_shadow_end_color" />
+
+        <ImageView
+            android:id="@+id/btnWisata"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_alignLeft="@+id/btnWisata"
+            android:layout_alignStart="@+id/btnWisata"
+            android:layout_below="@+id/btnWisata"
+            android:layout_marginTop="49dp"
+            android:background="@drawable/pendidikan"
+            android:src="@color/cardview_shadow_end_color" />
+
+        <ImageView
+            android:id="@+id/btnWisata"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/btnWisata"
+            android:layout_marginEnd="43dp"
+            android:layout_marginRight="43dp"
+            android:background="@drawable/penginapan"
+            android:src="@color/cardview_shadow_end_color" />
+
+        <ImageView
+            android:id="@+id/btnWisata"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/wisata" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnWisata"
+            android:layout_alignStart="@+id/btnWisata"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:text="Wisata" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_alignEnd="@+id/btnWisata"
+            android:layout_alignRight="@+id/btnWisata"
+            android:text="Penginapan"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnWisata"
+            android:layout_alignStart="@+id/btnWisata"
+            android:layout_below="@+id/btnWisata"
+            android:text="Pendidikan"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="522dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_below="@+id/btnWisata"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:text="Kuliner"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "780471827098",
+    "firebase_url": "https://tubesvisit.firebaseio.com",
+    "project_id": "tubesvisit",
+    "storage_bucket": "tubesvisit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780471827098:android:62e08f672ca0db1f",
+        "android_client_info": {
+          "package_name": "com.example.novia.visitmalang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780471827098-j321mef8doun1pnqecoi4kh333qlc1j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdRWzO3e7OMBjomTQI1I7jGJeKfBQl2_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780471827098:android:f1ce90682c490f0e",
+        "android_client_info": {
+          "package_name": "com.example.novia.semangat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780471827098-j321mef8doun1pnqecoi4kh333qlc1j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdRWzO3e7OMBjomTQI1I7jGJeKfBQl2_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

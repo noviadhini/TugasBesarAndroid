@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.novia.semangat.DetailKuliner">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:scaleType="center"
+            app:srcCompat="@color/cardview_shadow_end_color" />
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_detail_wisata" />
+
+    <TextView
+        android:id="@+id/txtNama1"
+        android:layout_width="305dp"
+        android:layout_height="71dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:text="Nama"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="left|bottom"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/btnShare"
+        android:layout_width="42dp"
+        android:layout_height="27dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:textColor="@color/text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="right|top"
+        app:srcCompat="@drawable/ic_menu_share"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/btnPanah"
+        android:layout_width="46dp"
+        android:layout_height="33dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:textColor="@color/text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="left|top"
+        app:srcCompat="@drawable/panah"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/btnMap"
+        android:layout_width="45dp"
+        android:layout_height="31dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:textColor="@color/text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="right|bottom"
+        app:srcCompat="@drawable/map"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+</android.support.design.widget.CoordinatorLayout>
